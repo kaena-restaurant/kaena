@@ -3,11 +3,11 @@ import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9",
-  "https://images.unsplash.com/photo-1501854140801-50d01698950b",
-  "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05",
-  "https://images.unsplash.com/photo-1500375592092-40eb2168fd21",
-  "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
+  "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4", // Restaurant interior
+  "https://images.unsplash.com/photo-1532509334149-d2130d74253c", // Asian cuisine
+  "https://images.unsplash.com/photo-1583835746434-cf1534674b41", // Seafood dish
+  "https://images.unsplash.com/photo-1536935338788-846bb9981813", // Cocktails
+  "https://images.unsplash.com/photo-1512621776951-a57141f2eefd" // Healthy food
 ];
 
 const Slideshow = () => {
@@ -35,7 +35,7 @@ const Slideshow = () => {
   };
 
   return (
-    <div className="relative w-full h-[80vh] overflow-hidden bg-black">
+    <div className="relative w-full h-[60vh] overflow-hidden bg-black">
       {images.map((img, index) => (
         <div
           key={img}
@@ -48,11 +48,11 @@ const Slideshow = () => {
           )}
           <img
             src={img}
-            alt={`Slide ${index + 1}`}
+            alt={`Kaena Restaurant ${index + 1}`}
             className="w-full h-full object-cover"
             onLoad={handleImageLoad}
           />
-          <div className="absolute inset-0 bg-black/20" />
+          <div className="absolute inset-0 bg-black/30" />
         </div>
       ))}
 

@@ -4,6 +4,11 @@ import { Heart, ExternalLink, ChevronUp, ChevronDown } from 'lucide-react';
 
 const InfoCard = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isSaved, setIsSaved] = useState(false);
+
+  const toggleSave = () => {
+    setIsSaved(!isSaved);
+  };
 
   return (
     <div className="fixed right-8 top-32 w-64 md:w-72 bg-white rounded-lg shadow-lg transition-all duration-300 z-50">
@@ -61,9 +66,14 @@ const InfoCard = () => {
           </a>
           
           <button 
-            className="block w-full border-2 border-black text-black py-2 rounded-md hover:bg-gray-100 transition-colors flex items-center justify-center gap-2"
+            onClick={toggleSave}
+            className={`block w-full border-2 py-2 rounded-md transition-colors flex items-center justify-center gap-2
+              ${isSaved ? 
+                'border-red-500 text-red-500 hover:bg-red-50' : 
+                'border-black text-black hover:bg-gray-100'
+              }`}
           >
-            Saved <Heart className="w-4 h-4" />
+            {isSaved ? 'Saved' : 'Save'} <Heart className={`w-4 h-4 ${isSaved ? 'fill-red-500' : ''}`} />
           </button>
         </div>
       </div>

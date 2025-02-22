@@ -1,5 +1,6 @@
+
 import Slideshow from "../components/Slideshow";
-import { Fish, ShoppingBag, Utensils, GlassFull, Package, Globe, Clock } from "lucide-react";
+import { Fish, ShoppingBag, Utensils, Package, Globe, Clock } from "lucide-react";
 
 const Index = () => {
   return (
@@ -71,7 +72,7 @@ const Index = () => {
               
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
-                  <GlassFull className="w-6 h-6 text-gray-900" />
+                  <Utensils className="w-6 h-6 text-gray-900" />
                   <a href="#" className="text-gray-900 text-xl hover:underline">Bar</a>
                 </div>
                 

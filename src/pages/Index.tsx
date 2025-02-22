@@ -1,3 +1,4 @@
+
 import Slideshow from "../components/Slideshow";
 
 const Index = () => {
@@ -10,7 +11,7 @@ const Index = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          filter: 'brightness(1.2) contrast(1.2)' // Reduced brightness from 1.4 to 1.2
+          filter: 'brightness(1.2) contrast(1.2)'
         }}
       />
       
@@ -18,8 +19,8 @@ const Index = () => {
         <header className="bg-white/60 text-black py-4 backdrop-blur-sm">
           <nav className="max-w-6xl mx-auto px-4">
             <ul className="flex justify-end space-x-6">
-              <li><a href="#features" className="hover:text-gray-700">Features</a></li>
-              <li><a href="#contact" className="hover:text-gray-700">Contact Us</a></li>
+              <li><a href="#features" className="text-gray-900 hover:text-gray-700">Features</a></li>
+              <li><a href="#contact" className="text-gray-900 hover:text-gray-700">Contact Us</a></li>
             </ul>
           </nav>
         </header>
@@ -43,22 +44,22 @@ const Index = () => {
         {/* What We Offer Section */}
         <section id="features" className="max-w-4xl mx-auto px-4 py-12 mt-8 bg-white/60 backdrop-blur-sm">
           <div className="text-center">
-            <h2 className="text-4xl font-['Oswald'] text-green-700 mb-12">What We Offer</h2>
+            <h2 className="text-4xl font-['Oswald'] text-gray-900 mb-12">What We Offer</h2>
             
             <div className="grid gap-12 md:gap-8 md:grid-cols-3">
               <div className="space-y-4">
-                <h3 className="text-2xl font-semibold text-green-600">Fresh Seafood</h3>
-                <p className="text-gray-700">Enjoy the freshest catch of the day, prepared to perfection.</p>
+                <h3 className="text-2xl font-semibold text-gray-900">Fresh Seafood</h3>
+                <p className="text-gray-800">Enjoy the freshest catch of the day, prepared to perfection.</p>
               </div>
               
               <div className="space-y-4">
-                <h3 className="text-2xl font-semibold text-green-600">Exotic Cocktails</h3>
-                <p className="text-gray-700">Try our handcrafted cocktails made with tropical flavors.</p>
+                <h3 className="text-2xl font-semibold text-gray-900">Exotic Cocktails</h3>
+                <p className="text-gray-800">Try our handcrafted cocktails made with tropical flavors.</p>
               </div>
               
               <div className="space-y-4">
-                <h3 className="text-2xl font-semibold text-green-600">Takeaway Options</h3>
-                <p className="text-gray-700">Order your favorite dishes to enjoy at home or on the beach.</p>
+                <h3 className="text-2xl font-semibold text-gray-900">Takeaway Options</h3>
+                <p className="text-gray-800">Order your favorite dishes to enjoy at home or on the beach.</p>
               </div>
             </div>
           </div>
@@ -67,27 +68,27 @@ const Index = () => {
         {/* Contact Us Section */}
         <section id="contact" className="max-w-4xl mx-auto px-4 py-12 mt-8 bg-white/60 backdrop-blur-sm">
           <div className="text-center">
-            <h2 className="text-4xl font-['Oswald'] text-green-700 mb-12">Contact Us</h2>
+            <h2 className="text-4xl font-['Oswald'] text-gray-900 mb-12">Contact Us</h2>
             
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl text-green-600 mb-2">Booking / Enquiries</h3>
+                <h3 className="text-xl text-gray-900 mb-2">Booking / Enquiries</h3>
               </div>
               
               <div className="space-y-3">
-                <p className="text-gray-700">
+                <p className="text-gray-800">
                   Email: <a href="mailto:kaenarestaurant@gmail.com" className="text-blue-600 hover:underline">kaenarestaurant@gmail.com</a>
                 </p>
-                <p className="text-gray-700">
+                <p className="text-gray-800">
                   Phone: <a href="tel:+682-25433" className="text-blue-600 hover:underline">+682-25433</a>
                 </p>
-                <p className="text-gray-700">
+                <p className="text-gray-800">
                   Facebook: <a href="https://facebook.com/Kaena-Resaturant-Takeaway" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Kaena Resaturant & Takeaway</a>
                 </p>
               </div>
               
               <div className="mt-8">
-                <p className="text-gray-700">
+                <p className="text-gray-800">
                   Address: Near Rarotongan Beach Resort, Arorangi, Rarotonga, Cook Islands
                 </p>
               </div>

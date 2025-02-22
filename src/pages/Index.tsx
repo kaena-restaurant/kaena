@@ -40,6 +40,68 @@ const Index = () => {
             "Grilled & Sizzling Style"
           </p>
         </div>
+
+        {/* What We Offer Section */}
+        <section id="features" className="py-16 bg-white/80 backdrop-blur-sm">
+          <div className="max-w-4xl mx-auto px-4 text-center">
+            <h2 className="text-4xl font-['Oswald'] text-green-700 mb-12">What We Offer</h2>
+            
+            <div className="grid gap-12 md:gap-8 md:grid-cols-3">
+              <div className="space-y-4">
+                <h3 className="text-2xl font-semibold text-green-600">Fresh Seafood</h3>
+                <p className="text-gray-700">Enjoy the freshest catch of the day, prepared to perfection.</p>
+              </div>
+              
+              <div className="space-y-4">
+                <h3 className="text-2xl font-semibold text-green-600">Exotic Cocktails</h3>
+                <p className="text-gray-700">Try our handcrafted cocktails made with tropical flavors.</p>
+              </div>
+              
+              <div className="space-y-4">
+                <h3 className="text-2xl font-semibold text-green-600">Takeaway Options</h3>
+                <p className="text-gray-700">Order your favorite dishes to enjoy at home or on the beach.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Us Section */}
+        <section id="contact" className="py-16 bg-white/80 backdrop-blur-sm">
+          <div className="max-w-4xl mx-auto px-4 text-center">
+            <h2 className="text-4xl font-['Oswald'] text-green-700 mb-12">Contact Us</h2>
+            
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-xl text-green-600 mb-2">Booking / Enquiries</h3>
+              </div>
+              
+              <div className="space-y-3">
+                <p className="text-gray-700">
+                  Email: <a href="mailto:kaenarestaurant@gmail.com" className="text-blue-600 hover:underline">kaenarestaurant@gmail.com</a>
+                </p>
+                <p className="text-gray-700">
+                  Phone: <a href="tel:+682-25433" className="text-blue-600 hover:underline">+682-25433</a>
+                </p>
+                <p className="text-gray-700">
+                  Facebook: <a href="https://facebook.com/Kaena-Resaturant-Takeaway" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Kaena Resaturant & Takeaway</a>
+                </p>
+              </div>
+              
+              <div className="mt-8">
+                <p className="text-gray-700">
+                  Address: Near Rarotongan Beach Resort, Arorangi, Rarotonga, Cook Islands
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Footer */}
+        <footer className="bg-green-700 text-white py-4">
+          <div className="text-center">
+            <p>© 2025 Kaena Restaurant & Takeaway. All Rights Reserved.</p>
+          </div>
+        </footer>
       </div>
     </div>
   );

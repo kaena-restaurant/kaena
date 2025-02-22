@@ -1,6 +1,6 @@
-
 import Slideshow from "../components/Slideshow";
 import { Fish, ShoppingBag, Utensils, Package, Globe, Clock } from "lucide-react";
+import LocationMap from "../components/LocationMap";
 
 const Index = () => {
   return (
@@ -86,6 +86,20 @@ const Index = () => {
                   <a href="#" className="text-gray-900 text-xl hover:underline">International</a>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Location Section */}
+        <section className="max-w-4xl mx-auto px-4 py-12 mt-8 bg-white/60 backdrop-blur-sm">
+          <div>
+            <h2 className="text-4xl font-['Oswald'] text-gray-900 mb-8 text-center">Kaena Restaurant & Bar location</h2>
+            <LocationMap />
+            <div className="mt-6">
+              <h3 className="text-2xl font-['Oswald'] text-gray-900 mb-4">Arorangi, Rarotonga</h3>
+              <p className="text-gray-800">
+                Located near the beautiful Rarotongan Beach Resort, our restaurant offers a perfect blend of local hospitality and international cuisine.
+              </p>
             </div>
           </div>
         </section>

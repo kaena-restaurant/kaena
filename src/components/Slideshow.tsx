@@ -35,8 +35,8 @@ const Slideshow = () => {
   };
 
   return (
-    <div className="flex justify-center w-full bg-black">
-      <div className="relative w-[80%] max-w-4xl h-[60vh] overflow-hidden"> {/* Added max-width and width constraints */}
+    <div className="flex justify-center w-full">
+      <div className="relative w-[80%] max-w-4xl h-[60vh] overflow-hidden">
         {images.map((img, index) => (
           <div
             key={img}

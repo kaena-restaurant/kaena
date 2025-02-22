@@ -35,7 +35,7 @@ const Slideshow = () => {
   };
 
   return (
-    <div className="relative w-full h-[60vh] overflow-hidden bg-black">
+    <div className="relative w-full h-[40vh] overflow-hidden bg-black"> {/* Changed from h-[60vh] to h-[40vh] */}
       {images.map((img, index) => (
         <div
           key={img}

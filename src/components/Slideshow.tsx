@@ -3,10 +3,15 @@ import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  "/lovable-uploads/59630d4d-8792-43cd-b8a2-e991df15498d.png", // Beverages
-  "/lovable-uploads/70e479e6-0574-4bdc-9b81-21474bd038d9.png", // Rice with egg and meat
-  "/lovable-uploads/d95a3269-a6cd-41a3-b339-1ee87be7cd84.png", // Nuggets and fries
-  "/lovable-uploads/23773af0-9d73-4d9b-ab4b-06ebc449481f.png"  // Spring rolls
+  "/lovable-uploads/108dd990-c775-4795-bc21-c1389354ac39.png", // Egg with rice
+  "/lovable-uploads/fed698a1-6c75-4397-8a68-ca3c2679007d.png", // Chicken with rice
+  "/lovable-uploads/0f6074e9-81c8-4616-b20b-f0042281923f.png", // Breaded shrimp
+  "/lovable-uploads/d7aa29e0-3d8f-46c4-a487-2199c8274e36.png", // Onion rings
+  "/lovable-uploads/0c6a3288-a9b9-43b5-bd5d-7567e7be01fd.png", // BBQ ribs
+  "/lovable-uploads/b10605d1-f64a-4971-975d-f48192928074.png", // Steamed fish
+  "/lovable-uploads/95fed8a6-7f0b-43dc-82b0-42601492297c.png", // Grilled chicken with rice
+  "/lovable-uploads/dd2ee790-a00a-4fae-842c-9010d80256e3.png", // Pasta with garlic bread
+  "/lovable-uploads/3322449c-0a68-4fa2-a55f-a17d5641ed43.png"  // Chocolate milkshake
 ];
 
 const Slideshow = () => {

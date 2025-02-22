@@ -11,17 +11,20 @@ const InfoCard = () => {
   };
 
   return (
-    <div className="fixed right-8 top-32 w-64 md:w-72 bg-white rounded-lg shadow-lg transition-all duration-300 z-50">
+    <div className={`fixed md:right-8 md:top-32 transition-all duration-300 z-50 bg-white rounded-lg shadow-lg
+      ${isCollapsed ? 'left-4 top-4 w-auto' : 'right-8 top-32 w-64'} 
+      md:w-72`}
+    >
       {/* Mobile collapse button */}
       <button
-        className="md:hidden w-full py-2 px-4 flex items-center justify-between text-gray-700 hover:bg-gray-50"
+        className="md:hidden w-full py-2 px-4 flex items-center justify-between text-gray-700 hover:bg-gray-50 rounded-lg"
         onClick={() => setIsCollapsed(!isCollapsed)}
       >
         <span className="font-semibold">Restaurant Info</span>
         {isCollapsed ? (
-          <ChevronDown className="w-5 h-5" />
+          <ChevronDown className="w-5 h-5 ml-2" />
         ) : (
-          <ChevronUp className="w-5 h-5" />
+          <ChevronUp className="w-5 h-5 ml-2" />
         )}
       </button>
 

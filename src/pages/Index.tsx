@@ -1,4 +1,3 @@
-
 import Slideshow from "../components/Slideshow";
 
 const Index = () => {
@@ -11,7 +10,7 @@ const Index = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          filter: 'brightness(1.4) contrast(1.2)' // Increased brightness and contrast
+          filter: 'brightness(1.2) contrast(1.2)' // Reduced brightness from 1.4 to 1.2
         }}
       />
       

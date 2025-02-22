@@ -3,15 +3,10 @@ import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  "/lovable-uploads/01b16bcf-c064-4322-9849-afa9070a83c4.png", // Grilled chicken with egg
-  "/lovable-uploads/d39b5a7f-f8c4-41fd-a913-bead76849007.png", // Breaded shrimp with sauce
-  "/lovable-uploads/8f594b8a-fa3e-432e-b489-fbf0e3d45918.png", // Steamed fish
-  "/lovable-uploads/0813d115-3a53-4612-9468-7782cfb69b39.png", // BBQ chicken with yellow rice
-  "/lovable-uploads/6e9e6392-5a89-4212-bc01-43f25dc3e713.png", // Fried chicken with rice
-  "/lovable-uploads/c53436d1-cdbe-4464-bb56-b9adfed25b24.png", // Onion rings
-  "/lovable-uploads/d7f4f993-3b76-4d94-bc4a-899a908d1ea2.png", // BBQ ribs with mashed potatoes
-  "/lovable-uploads/42df16b2-4b67-4662-b669-da41ff89c965.png", // Fettuccine alfredo
-  "/lovable-uploads/981a8194-b751-49e9-92f9-f623c305235b.png"  // Chocolate milkshake
+  "/lovable-uploads/5eb20578-cf19-4976-aa53-294c8637f3ec.png", // Fish and chips with sauce
+  "/lovable-uploads/2095eb42-ca4b-4439-9c24-3d99190d3d13.png", // Beef with fried egg
+  "/lovable-uploads/5410b142-0334-4d95-b07d-12f1e0014d39.png", // Spring rolls
+  "/lovable-uploads/f5246f22-2f64-4adc-84e8-72cbf5b45429.png"  // Milkshakes
 ];
 
 const Slideshow = () => {
@@ -54,7 +49,7 @@ const Slideshow = () => {
             <img
               src={img}
               alt={`Kaena Restaurant Food ${index + 1}`}
-              className="w-full h-full object-contain rotate-90 transform origin-center"
+              className="w-full h-full object-contain"
               onLoad={handleImageLoad}
             />
           </div>

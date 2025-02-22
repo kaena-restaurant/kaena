@@ -1,5 +1,5 @@
-
 import Slideshow from "../components/Slideshow";
+import { Fish, ShoppingBag, Utensils, GlassFull, Package, Globe, Clock } from "lucide-react";
 
 const Index = () => {
   return (
@@ -41,25 +41,49 @@ const Index = () => {
           </p>
         </div>
 
-        {/* What We Offer Section */}
+        {/* Amenities Section */}
         <section id="features" className="max-w-4xl mx-auto px-4 py-12 mt-8 bg-white/60 backdrop-blur-sm">
           <div className="text-center">
-            <h2 className="text-4xl font-['Oswald'] text-gray-900 mb-12">What We Offer</h2>
+            <h2 className="text-4xl font-['Oswald'] text-gray-900 mb-12">Kaena Restaurant & Bar amenities</h2>
             
-            <div className="grid gap-12 md:gap-8 md:grid-cols-3">
-              <div className="space-y-4">
-                <h3 className="text-2xl font-semibold text-gray-900">Fresh Seafood</h3>
-                <p className="text-gray-800">Enjoy the freshest catch of the day, prepared to perfection.</p>
+            <div className="grid gap-8 md:grid-cols-2">
+              <div className="space-y-6">
+                <div className="flex items-center space-x-4">
+                  <Fish className="w-6 h-6 text-gray-900" />
+                  <a href="#" className="text-gray-900 text-xl hover:underline">Seafood</a>
+                </div>
+                
+                <div className="flex items-center space-x-4">
+                  <ShoppingBag className="w-6 h-6 text-gray-900" />
+                  <a href="#" className="text-gray-900 text-xl hover:underline">Takeaway</a>
+                </div>
+                
+                <div className="flex items-center space-x-4">
+                  <Utensils className="w-6 h-6 text-gray-900" />
+                  <a href="#" className="text-gray-900 text-xl hover:underline">Dinner</a>
+                </div>
+                
+                <div className="flex items-center space-x-4">
+                  <Clock className="w-6 h-6 text-gray-900" />
+                  <a href="#" className="text-gray-900 text-xl hover:underline">New Zealand</a>
+                </div>
               </div>
               
-              <div className="space-y-4">
-                <h3 className="text-2xl font-semibold text-gray-900">Exotic Cocktails</h3>
-                <p className="text-gray-800">Try our handcrafted cocktails made with tropical flavors.</p>
-              </div>
-              
-              <div className="space-y-4">
-                <h3 className="text-2xl font-semibold text-gray-900">Takeaway Options</h3>
-                <p className="text-gray-800">Order your favorite dishes to enjoy at home or on the beach.</p>
+              <div className="space-y-6">
+                <div className="flex items-center space-x-4">
+                  <GlassFull className="w-6 h-6 text-gray-900" />
+                  <a href="#" className="text-gray-900 text-xl hover:underline">Bar</a>
+                </div>
+                
+                <div className="flex items-center space-x-4">
+                  <Package className="w-6 h-6 text-gray-900" />
+                  <a href="#" className="text-gray-900 text-xl hover:underline">Lunch</a>
+                </div>
+                
+                <div className="flex items-center space-x-4">
+                  <Globe className="w-6 h-6 text-gray-900" />
+                  <a href="#" className="text-gray-900 text-xl hover:underline">International</a>
+                </div>
               </div>
             </div>
           </div>

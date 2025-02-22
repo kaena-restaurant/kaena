@@ -3,11 +3,10 @@ import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4", // Restaurant interior
-  "https://images.unsplash.com/photo-1532509334149-d2130d74253c", // Asian cuisine
-  "https://images.unsplash.com/photo-1583835746434-cf1534674b41", // Seafood dish
-  "https://images.unsplash.com/photo-1536935338788-846bb9981813", // Cocktails
-  "https://images.unsplash.com/photo-1512621776951-a57141f2eefd" // Healthy food
+  "/lovable-uploads/59630d4d-8792-43cd-b8a2-e991df15498d.png", // Beverages
+  "/lovable-uploads/70e479e6-0574-4bdc-9b81-21474bd038d9.png", // Rice with egg and meat
+  "/lovable-uploads/d95a3269-a6cd-41a3-b339-1ee87be7cd84.png", // Nuggets and fries
+  "/lovable-uploads/23773af0-9d73-4d9b-ab4b-06ebc449481f.png"  // Spring rolls
 ];
 
 const Slideshow = () => {
@@ -49,7 +48,7 @@ const Slideshow = () => {
             )}
             <img
               src={img}
-              alt={`Kaena Restaurant ${index + 1}`}
+              alt={`Kaena Restaurant Food ${index + 1}`}
               className="w-full h-full object-cover"
               onLoad={handleImageLoad}
             />

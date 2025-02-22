@@ -15,7 +15,7 @@ const Index = () => {
       />
       
       <div className="relative z-10">
-        <header className="bg-black/80 text-white py-4 backdrop-blur-sm">
+        <header className="bg-black/95 text-white py-4 backdrop-blur-sm">
           <nav className="max-w-6xl mx-auto px-4">
             <ul className="flex justify-end space-x-6">
               <li><a href="#features" className="hover:text-gray-300">Features</a></li>

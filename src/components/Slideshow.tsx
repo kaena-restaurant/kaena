@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -54,10 +53,9 @@ const Slideshow = () => {
             <img
               src={img}
               alt={`Kaena Restaurant Food ${index + 1}`}
-              className="w-full h-full object-contain bg-black/90"
+              className="w-full h-full object-contain"
               onLoad={handleImageLoad}
             />
-            <div className="absolute inset-0 bg-black/20" />
           </div>
         ))}
 

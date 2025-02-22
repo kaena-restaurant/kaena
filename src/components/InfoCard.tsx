@@ -36,7 +36,9 @@ const InfoCard = () => {
       
       <div className="space-y-2">
         <a 
-          href="#" 
+          href="https://www.facebook.com/profile.php?id=100054537036984#"
+          target="_blank"
+          rel="noopener noreferrer"
           className="block w-full bg-black text-white text-center py-2 rounded-md hover:bg-gray-800 transition-colors flex items-center justify-center gap-2"
         >
           Visit site <ExternalLink className="w-4 h-4" />

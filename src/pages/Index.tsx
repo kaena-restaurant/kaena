@@ -16,11 +16,11 @@ const Index = () => {
       />
       
       <div className="relative z-10">
-        <header className="bg-black/95 text-white py-4 backdrop-blur-sm">
+        <header className="bg-white/60 text-black py-4 backdrop-blur-sm">
           <nav className="max-w-6xl mx-auto px-4">
             <ul className="flex justify-end space-x-6">
-              <li><a href="#features" className="hover:text-gray-300">Features</a></li>
-              <li><a href="#contact" className="hover:text-gray-300">Contact Us</a></li>
+              <li><a href="#features" className="hover:text-gray-700">Features</a></li>
+              <li><a href="#contact" className="hover:text-gray-700">Contact Us</a></li>
             </ul>
           </nav>
         </header>
@@ -97,7 +97,7 @@ const Index = () => {
         </section>
 
         {/* Footer */}
-        <footer className="bg-green-700 text-white py-4">
+        <footer className="bg-black text-white py-4">
           <div className="text-center">
             <p>© 2025 Kaena Restaurant & Takeaway. All Rights Reserved.</p>
           </div>

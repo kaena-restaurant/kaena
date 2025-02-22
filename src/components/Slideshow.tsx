@@ -3,15 +3,15 @@ import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  "/lovable-uploads/108dd990-c775-4795-bc21-c1389354ac39.png", // Egg with rice
-  "/lovable-uploads/fed698a1-6c75-4397-8a68-ca3c2679007d.png", // Chicken with rice
-  "/lovable-uploads/0f6074e9-81c8-4616-b20b-f0042281923f.png", // Breaded shrimp
-  "/lovable-uploads/d7aa29e0-3d8f-46c4-a487-2199c8274e36.png", // Onion rings
-  "/lovable-uploads/0c6a3288-a9b9-43b5-bd5d-7567e7be01fd.png", // BBQ ribs
-  "/lovable-uploads/b10605d1-f64a-4971-975d-f48192928074.png", // Steamed fish
-  "/lovable-uploads/95fed8a6-7f0b-43dc-82b0-42601492297c.png", // Grilled chicken with rice
-  "/lovable-uploads/dd2ee790-a00a-4fae-842c-9010d80256e3.png", // Pasta with garlic bread
-  "/lovable-uploads/3322449c-0a68-4fa2-a55f-a17d5641ed43.png"  // Chocolate milkshake
+  "/lovable-uploads/01b16bcf-c064-4322-9849-afa9070a83c4.png", // Grilled chicken with egg
+  "/lovable-uploads/d39b5a7f-f8c4-41fd-a913-bead76849007.png", // Breaded shrimp with sauce
+  "/lovable-uploads/8f594b8a-fa3e-432e-b489-fbf0e3d45918.png", // Steamed fish
+  "/lovable-uploads/0813d115-3a53-4612-9468-7782cfb69b39.png", // BBQ chicken with yellow rice
+  "/lovable-uploads/6e9e6392-5a89-4212-bc01-43f25dc3e713.png", // Fried chicken with rice
+  "/lovable-uploads/c53436d1-cdbe-4464-bb56-b9adfed25b24.png", // Onion rings
+  "/lovable-uploads/d7f4f993-3b76-4d94-bc4a-899a908d1ea2.png", // BBQ ribs with mashed potatoes
+  "/lovable-uploads/42df16b2-4b67-4662-b669-da41ff89c965.png", // Fettuccine alfredo
+  "/lovable-uploads/981a8194-b751-49e9-92f9-f623c305235b.png"  // Chocolate milkshake
 ];
 
 const Slideshow = () => {

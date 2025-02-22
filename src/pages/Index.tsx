@@ -1,3 +1,4 @@
+
 import Slideshow from "../components/Slideshow";
 import { Fish, ShoppingBag, Utensils, Package, Globe, Clock } from "lucide-react";
 import LocationMap from "../components/LocationMap";
@@ -9,7 +10,7 @@ const Index = () => {
       <div 
         className="fixed inset-0 z-0"
         style={{
-          backgroundImage: 'url("/lovable-uploads/91349a08-e66b-4f8e-9814-9a2a21125d42.png")',
+          backgroundImage: 'url("/lovable-uploads/6fbcf6a8-d8ce-4373-9613-ae49f4428b51.png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',

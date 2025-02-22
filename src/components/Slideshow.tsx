@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -53,7 +54,7 @@ const Slideshow = () => {
             <img
               src={img}
               alt={`Kaena Restaurant Food ${index + 1}`}
-              className="w-full h-full object-contain"
+              className="w-full h-full object-contain rotate-90 transform origin-center"
               onLoad={handleImageLoad}
             />
           </div>

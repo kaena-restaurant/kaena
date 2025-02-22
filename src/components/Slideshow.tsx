@@ -3,10 +3,15 @@ import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  "/lovable-uploads/5eb20578-cf19-4976-aa53-294c8637f3ec.png", // Fish and chips with sauce
-  "/lovable-uploads/2095eb42-ca4b-4439-9c24-3d99190d3d13.png", // Beef with fried egg
-  "/lovable-uploads/5410b142-0334-4d95-b07d-12f1e0014d39.png", // Spring rolls
-  "/lovable-uploads/f5246f22-2f64-4adc-84e8-72cbf5b45429.png"  // Milkshakes
+  "/lovable-uploads/3b538f6c-340a-4609-82bf-7da4bbc9ab76.png", // BBQ ribs with mashed potatoes
+  "/lovable-uploads/41e0117a-ae62-43d7-a48a-726da35c8309.png", // Fettuccine with garlic bread
+  "/lovable-uploads/43a6e1a8-6b5f-496f-b424-cb52af9ea70b.png", // Onion rings with dip
+  "/lovable-uploads/57e877e2-6e94-4c0e-96e2-417193e8a7a9.png", // Fried chicken with rice
+  "/lovable-uploads/367966ba-fb10-4410-839d-696a9103d32f.png", // Breaded shrimp with dip
+  "/lovable-uploads/ae8a36f7-1aee-4f47-9a1a-3b09cfa76b24.png", // Grilled pineapple with fried egg
+  "/lovable-uploads/7628f0f0-1d2d-4036-af92-c77ebf9e3308.png", // BBQ chicken with yellow rice
+  "/lovable-uploads/a56f8c31-93c5-497f-af96-6b6b0570c3d0.png", // Steamed fish with garnish
+  "/lovable-uploads/b79072b7-ba7a-49d3-b8ba-ca0b3a3e7494.png"  // Chocolate milkshake
 ];
 
 const Slideshow = () => {

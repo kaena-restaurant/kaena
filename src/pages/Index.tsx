@@ -15,6 +15,15 @@ const Index = () => {
       />
       
       <div className="relative z-10">
+        <header className="bg-black/95 text-white py-4 backdrop-blur-sm">
+          <nav className="max-w-6xl mx-auto px-4">
+            <ul className="flex justify-end space-x-6">
+              <li><a href="#features" className="hover:text-gray-300">Features</a></li>
+              <li><a href="#contact" className="hover:text-gray-300">Contact Us</a></li>
+            </ul>
+          </nav>
+        </header>
+        
         <div className="text-center py-8 bg-white/80 backdrop-blur-sm">
           <h1 className="text-5xl font-['Dancing_Script'] mb-2 text-gray-900">Kaena</h1>
           <h2 className="text-xl font-light text-gray-800">Restaurant, Takeaway & Bar</h2>

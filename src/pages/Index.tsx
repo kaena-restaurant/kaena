@@ -42,8 +42,8 @@ const Index = () => {
         </div>
 
         {/* What We Offer Section */}
-        <section id="features" className="py-16 bg-white/60 backdrop-blur-sm">
-          <div className="max-w-4xl mx-auto px-4 text-center">
+        <section id="features" className="max-w-4xl mx-auto px-4 py-12 mt-8 bg-white/60 backdrop-blur-sm">
+          <div className="text-center">
             <h2 className="text-4xl font-['Oswald'] text-green-700 mb-12">What We Offer</h2>
             
             <div className="grid gap-12 md:gap-8 md:grid-cols-3">
@@ -66,8 +66,8 @@ const Index = () => {
         </section>
 
         {/* Contact Us Section */}
-        <section id="contact" className="py-16 bg-white/60 backdrop-blur-sm">
-          <div className="max-w-4xl mx-auto px-4 text-center">
+        <section id="contact" className="max-w-4xl mx-auto px-4 py-12 mt-8 bg-white/60 backdrop-blur-sm">
+          <div className="text-center">
             <h2 className="text-4xl font-['Oswald'] text-green-700 mb-12">Contact Us</h2>
             
             <div className="space-y-6">

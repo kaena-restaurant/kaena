@@ -70,7 +70,7 @@ const Index = () => {
                     
                     <div className="flex items-center space-x-4">
                       <Clock className="w-6 h-6 text-gray-900" />
-                      <a href="#" className="text-gray-900 text-xl hover:underline">New Zealand</a>
+                      <a href="#" className="text-gray-900 text-xl hover:underline">Cook Island</a>
                     </div>
                   </div>
                   

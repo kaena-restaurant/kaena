@@ -65,7 +65,7 @@ const InfoCard = () => {
             rel="noopener noreferrer"
             className="block w-full bg-blue-600 text-white text-center py-2 rounded-md hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
           >
-            Visit Facebook <ExternalLink className="w-4 h-4" />
+            Kaena Resaturant & Takeaway <ExternalLink className="w-4 h-4" />
           </a>
           
           <a 

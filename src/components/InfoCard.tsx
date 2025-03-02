@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Heart, ExternalLink, ChevronUp, ChevronDown } from 'lucide-react';
+import { Heart, ExternalLink, ChevronUp, ChevronDown, Instagram } from 'lucide-react';
 
 const InfoCard = () => {
   const [isCollapsed, setIsCollapsed] = useState(false);
@@ -60,12 +60,21 @@ const InfoCard = () => {
         
         <div className="space-y-2">
           <a 
-            href="https://www.facebook.com/profile.php?id=100054537036984#"
+            href="https://www.facebook.com/profile.php?id=61573614456057"
             target="_blank"
             rel="noopener noreferrer"
-            className="block w-full bg-black text-white text-center py-2 rounded-md hover:bg-gray-800 transition-colors flex items-center justify-center gap-2"
+            className="block w-full bg-blue-600 text-white text-center py-2 rounded-md hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
           >
-            Visit site <ExternalLink className="w-4 h-4" />
+            Visit Facebook <ExternalLink className="w-4 h-4" />
+          </a>
+          
+          <a 
+            href="https://www.instagram.com/kaenacookisland/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white text-center py-2 rounded-md hover:opacity-90 transition-colors flex items-center justify-center gap-2"
+          >
+            Visit Instagram <Instagram className="w-4 h-4" />
           </a>
           
           <button 

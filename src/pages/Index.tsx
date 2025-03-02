@@ -1,5 +1,5 @@
 import Slideshow from "../components/Slideshow";
-import { Fish, ShoppingBag, Utensils, Package, Globe, Clock } from "lucide-react";
+import { Fish, ShoppingBag, Utensils, Package, Globe, Clock, Facebook, Instagram } from "lucide-react";
 import LocationMap from "../components/LocationMap";
 import InfoCard from "../components/InfoCard";
 
@@ -125,7 +125,14 @@ const Index = () => {
                       Phone: <a href="tel:+682-25433" className="text-blue-600 hover:underline">+682-25433</a>
                     </p>
                     <p className="text-gray-800">
-                      Facebook: <a href="https://www.facebook.com/profile.php?id=61573614456057" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Kaena Resaturant & Takeaway</a>
+                      Facebook: <a href="https://www.facebook.com/profile.php?id=61573614456057" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center justify-center gap-1 inline-flex">
+                        <Facebook className="w-4 h-4" /> Kaena Resaturant & Takeaway
+                      </a>
+                    </p>
+                    <p className="text-gray-800">
+                      Instagram: <a href="https://www.instagram.com/kaenacookisland/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center justify-center gap-1 inline-flex">
+                        <Instagram className="w-4 h-4" /> @kaenacookisland
+                      </a>
                     </p>
                   </div>
                   

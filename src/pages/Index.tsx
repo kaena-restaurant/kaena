@@ -101,7 +101,7 @@ const Index = () => {
                 <div className="mt-6">
                   <h3 className="text-2xl font-['Oswald'] text-gray-900 mb-4">Arorangi, Rarotonga</h3>
                   <p className="text-gray-800">
-                    Located near the beautiful Rarotongan Beach Resort, our restaurant offers a perfect blend of local hospitality and international cuisine.
+                    Located near the Rarotongan Beach Resort, our restaurant offers a perfect blend of local hospitality and international cuisine.
                   </p>
                 </div>
               </div>

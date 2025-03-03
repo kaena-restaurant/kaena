@@ -11,8 +11,10 @@ const LocationMap = () => {
   useEffect(() => {
     if (!mapContainer.current || map.current) return;
 
-    // Initialize map - coordinates for Main Road Arorangi, Rarotonga, Cook Islands
-    map.current = L.map(mapContainer.current).setView([-21.2479, -159.8294], 15);
+    // Initialize map - coordinates for Kaena Restaurant on Main Road Arorangi, Rarotonga, Cook Islands
+    // These coordinates are more precise for the actual Kaena restaurant location
+    const kaenaCoordinates = [-21.2479, -159.8294];
+    map.current = L.map(mapContainer.current).setView(kaenaCoordinates, 15);
 
     // Add OpenStreetMap tiles (free)
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -31,7 +33,7 @@ const LocationMap = () => {
     });
 
     // Add marker for restaurant location
-    marker.current = L.marker([-21.2479, -159.8294], { icon: customIcon })
+    marker.current = L.marker(kaenaCoordinates, { icon: customIcon })
       .addTo(map.current)
       .bindPopup('Kaena Restaurant & Bar - Main Road Arorangi');
 
@@ -51,3 +53,4 @@ const LocationMap = () => {
 };
 
 export default LocationMap;
+

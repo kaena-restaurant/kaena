@@ -126,7 +126,7 @@ const Index = () => {
                     </p>
                     <p className="text-gray-800">
                       Facebook: <a href="https://www.facebook.com/profile.php?id=61573614456057" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline flex items-center justify-center gap-1 inline-flex">
-                        <Facebook className="w-4 h-4" /> Kaena Resaturant & Takeaway
+                        <Facebook className="w-4 h-4" /> Kaena Restaurant & Takeaway
                       </a>
                     </p>
                     <p className="text-gray-800">

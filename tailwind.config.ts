@@ -22,6 +22,7 @@ export default {
       fontFamily: {
         'cursive': ['"Brush Script MT"', '"Brush Script Std"', 'cursive'],
         'kaena': ['Helvetica', 'Arial', 'sans-serif'],
+        'script': ['"Lucida Handwriting"', '"Brush Script MT"', 'cursive'],
       },
       colors: {
         border: "hsl(var(--border))",

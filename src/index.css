@@ -110,4 +110,11 @@
     letter-spacing: 0.15em;
     font-weight: 300;
   }
+  
+  .font-script {
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  }
 }

@@ -31,7 +31,7 @@ const Index = () => {
         <div className="flex">
           <div className="flex-1">
             <div className="text-center py-8 bg-white/60 backdrop-blur-sm">
-              <h1 className="font-script mb-2 inline-block">Kaena</h1>
+              <h1 className="font-cursive mb-2 inline-block">Kaena</h1>
               <h2 className="text-xl font-light text-gray-800">Restaurant, Takeaway & Bar</h2>
             </div>
 

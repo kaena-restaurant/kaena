@@ -30,7 +30,7 @@ const Index = () => {
         <div className="flex">
           <div className="flex-1">
             <div className="text-center py-8 bg-white/60 backdrop-blur-sm">
-              <h1 className="text-5xl font-title font-bold uppercase tracking-wide mb-2 text-gray-900">Kaena</h1>
+              <h1 className="text-5xl font-['Dancing_Script'] mb-2 text-gray-900">Kaena</h1>
               <h2 className="text-xl font-light text-gray-800">Restaurant, Takeaway & Bar</h2>
             </div>
 

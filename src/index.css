@@ -113,13 +113,19 @@
   
   .font-script {
     font-family: "Lucida Handwriting", "Brush Script MT", cursive;
-    font-weight: 600;
-    font-size: 4.5rem;
-    letter-spacing: 0.02em;
-    text-shadow: 3px 3px 5px rgba(0,0,0,0.4), 0px 0px 2px rgba(0,0,0,0.8);
+    font-weight: 700;
+    font-size: 4.8rem;
+    letter-spacing: 0.03em;
+    text-shadow: 
+      3px 3px 6px rgba(0,0,0,0.5),
+      0px 0px 3px rgba(0,0,0,0.9),
+      1px 1px 0px #000,
+      -1px -1px 0px rgba(255,255,255,0.3);
     color: #000;
     position: relative;
     display: inline-block;
+    transform: rotate(-2deg);
+    padding: 0 10px;
   }
   
   .font-script::after {
@@ -131,8 +137,24 @@
     bottom: -2px;
     z-index: -1;
     border-radius: 50%;
-    filter: blur(5px);
+    filter: blur(8px);
     background: transparent;
-    box-shadow: 0 0 12px 4px rgba(255,255,255,0.8);
+    box-shadow: 
+      0 0 15px 5px rgba(255,255,255,0.9),
+      0 0 5px 2px rgba(255,255,255,0.6);
+  }
+  
+  .font-script::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    border-radius: 40%;
+    filter: blur(2px);
+    background: transparent;
+    box-shadow: 0 0 8px 1px rgba(0,0,0,0.3);
   }
 }

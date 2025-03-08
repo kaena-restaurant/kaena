@@ -21,6 +21,7 @@ export default {
     extend: {
       fontFamily: {
         'cursive': ['"Brush Script MT"', '"Brush Script Std"', 'cursive'],
+        'kaena': ['Helvetica', 'Arial', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

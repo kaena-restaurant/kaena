@@ -1,3 +1,4 @@
+
 import Slideshow from "../components/Slideshow";
 import { Fish, ShoppingBag, Utensils, Package, Globe, Clock, Facebook, Instagram } from "lucide-react";
 import LocationMap from "../components/LocationMap";
@@ -30,7 +31,7 @@ const Index = () => {
         <div className="flex">
           <div className="flex-1">
             <div className="text-center py-8 bg-white/60 backdrop-blur-sm">
-              <h1 className="text-5xl font-script mb-2 text-gray-900">Kaena</h1>
+              <h1 className="font-script mb-2">Kaena</h1>
               <h2 className="text-xl font-light text-gray-800">Restaurant, Takeaway & Bar</h2>
             </div>
 

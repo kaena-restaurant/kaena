@@ -11,10 +11,9 @@ const LocationMap = () => {
   useEffect(() => {
     if (!mapContainer.current || map.current) return;
 
-    // Initialize map - coordinates for Kaena Restaurant on Main Road Arorangi, Rarotonga, Cook Islands
-    // These coordinates are more precise for the actual Kaena restaurant location based on the provided image
-    const kaenaCoordinates = [-21.2422, -159.8310]; // Updated coordinates based on the image
-    map.current = L.map(mapContainer.current).setView(kaenaCoordinates, 16); // Increased zoom level for better visibility
+    // Initialize map with exact coordinates for Kaena Restaurant & Bar in Arorangi, Rarotonga
+    const kaenaCoordinates = [-21.2428, -159.8295]; // Updated to exact location
+    map.current = L.map(mapContainer.current).setView(kaenaCoordinates, 17); // Increased zoom for better visibility
 
     // Add OpenStreetMap tiles (free)
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {

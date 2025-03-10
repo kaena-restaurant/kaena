@@ -31,7 +31,7 @@ const InfoCard = () => {
       <div className={`${isCollapsed ? 'hidden' : 'block'} md:block p-4 space-y-4`}>
         <div className="flex gap-4">
           <img 
-            src="/lovable-uploads/754159f2-f0ac-4282-a751-28897cae03ed.png" 
+            src="/lovable-uploads/2690d626-944e-4fd2-9dc3-951c7a9e5d26.png" 
             alt="Kaena Restaurant & Bar" 
             className="w-16 h-16 rounded-lg object-cover"
           />

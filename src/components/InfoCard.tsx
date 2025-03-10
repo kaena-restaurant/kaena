@@ -41,24 +41,24 @@ const InfoCard = () => {
           </div>
         </div>
         
-        <div className="space-y-3">
+        <div className="space-y-2">
           <div className="flex items-center gap-2">
-            <span className="text-pink-500 flex-shrink-0">📍</span>
+            <span className="w-4 h-4">📍</span>
             <a href="#" className="text-gray-600 hover:underline">Arorangi, Rarotonga</a>
           </div>
           
           <div className="flex items-center gap-2">
-            <span className="text-red-500 flex-shrink-0">📞</span>
+            <span className="w-4 h-4">📞</span>
             <a href="tel:68225433" className="text-gray-600 hover:underline">68225433</a>
           </div>
           
           <div className="flex items-center gap-2">
-            <span className="text-gray-500 flex-shrink-0">🔗</span>
+            <span className="w-4 h-4">🔗</span>
             <a href="#" className="text-gray-600 hover:underline">Website</a>
           </div>
         </div>
         
-        <div className="space-y-3">
+        <div className="space-y-2">
           <a 
             href="https://www.facebook.com/profile.php?id=61573614456057"
             target="_blank"
@@ -79,9 +79,13 @@ const InfoCard = () => {
           
           <button 
             onClick={toggleSave}
-            className="block w-full border border-gray-300 py-2 rounded-md transition-colors flex items-center justify-center gap-2 hover:bg-gray-50"
+            className={`block w-full border-2 py-2 rounded-md transition-colors flex items-center justify-center gap-2
+              ${isSaved ? 
+                'border-red-500 text-red-500 hover:bg-red-50' : 
+                'border-black text-black hover:bg-gray-100'
+              }`}
           >
-            Save {isSaved ? <Heart className="w-4 h-4 fill-red-500 stroke-red-500" /> : <Heart className="w-4 h-4" />}
+            {isSaved ? 'Saved' : 'Save'} <Heart className={`w-4 h-4 ${isSaved ? 'fill-red-500' : ''}`} />
           </button>
         </div>
       </div>

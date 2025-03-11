@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Heart, ExternalLink, ChevronUp, ChevronDown, Instagram } from 'lucide-react';
 
@@ -12,8 +11,7 @@ const InfoCard = () => {
 
   return (
     <div className={`fixed md:right-8 md:top-32 transition-all duration-300 z-50 bg-white rounded-lg shadow-lg
-      ${isCollapsed ? 'left-4 top-4 w-auto' : 'right-8 top-32 w-64'} 
-      md:w-72`}
+      ${isCollapsed ? 'left-4 top-4 w-auto' : 'right-4 left-4 md:left-auto top-4 md:top-32 w-auto md:w-72'}`}
     >
       {/* Mobile collapse button */}
       <button

@@ -21,14 +21,15 @@ const Index = () => {
       <div className="relative z-10">
         <header className="bg-white/60 text-black py-4 backdrop-blur-sm">
           <nav className="max-w-6xl mx-auto px-4">
-            <ul className="flex justify-end space-x-6">
+            <ul className="flex justify-between md:justify-end space-x-6">
+              <li className="md:hidden font-semibold">Kaena</li>
               <li><a href="#features" className="text-gray-900 hover:text-gray-700">Features</a></li>
               <li><a href="#contact" className="text-gray-900 hover:text-gray-700">Contact Us</a></li>
             </ul>
           </nav>
         </header>
         
-        <div className="flex">
+        <div className="flex flex-col md:flex-row">
           <div className="flex-1">
             <div className="text-center py-8 bg-white/60 backdrop-blur-sm">
               <h1 className="font-cursive mb-2 inline-block">Kaena</h1>

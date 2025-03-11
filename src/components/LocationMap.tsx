@@ -34,18 +34,33 @@ const LocationMap = () => {
     // Add marker for restaurant location
     marker.current = L.marker(kaenaCoordinates, { icon: customIcon })
       .addTo(map.current)
-      .bindPopup('Kaena Restaurant & Bar - Main Road Arorangi');
+      .bindPopup('<strong>Kaena Restaurant & Bar</strong><br>Main Road Arorangi')
+      .openPopup();
 
     // Add zoom controls
     map.current.zoomControl.setPosition('topright');
 
+    // Make map responsive to container size changes
+    const resizeObserver = new ResizeObserver(() => {
+      if (map.current) {
+        map.current.invalidateSize();
+      }
+    });
+    
+    if (mapContainer.current) {
+      resizeObserver.observe(mapContainer.current);
+    }
+
     return () => {
+      if (mapContainer.current) {
+        resizeObserver.unobserve(mapContainer.current);
+      }
       map.current?.remove();
     };
   }, []);
 
   return (
-    <div className="relative w-full h-[400px] rounded-lg overflow-hidden">
+    <div className="relative w-full h-[400px] rounded-lg overflow-hidden shadow-lg">
       <div ref={mapContainer} className="absolute inset-0" />
     </div>
   );

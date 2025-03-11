@@ -3,10 +3,22 @@ import Slideshow from "../components/Slideshow";
 import { Fish, ShoppingBag, Utensils, Package, Globe, Clock, Facebook, Instagram } from "lucide-react";
 import LocationMap from "../components/LocationMap";
 import InfoCard from "../components/InfoCard";
+import { Helmet } from "react-helmet";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Kaena Restaurant & Bar - Asian Cuisine in Rarotonga</title>
+        <meta name="description" content="Kaena Restaurant & Bar specializes in Asian cuisine with a 'Grilled & Sizzling Style'. Located in Arorangi, Rarotonga, Cook Islands." />
+        <meta name="keywords" content="Kaena, restaurant, bar, takeaway, Asian cuisine, Cook Islands, Rarotonga, seafood, international cuisine" />
+        <meta property="og:title" content="Kaena Restaurant & Bar - Asian Cuisine in Rarotonga" />
+        <meta property="og:description" content="Specializing in Asian Cuisine with a 'Grilled & Sizzling Style'. Visit us in Arorangi, Rarotonga." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/lovable-uploads/6fbcf6a8-d8ce-4373-9613-ae49f4428b51.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
+      
       <div 
         className="fixed inset-0 z-0"
         style={{
